@@ -1,0 +1,51 @@
+export const weatherColors = {
+  sunny: {
+    skyColor: 0x87ceeb,
+    cloudColor: 0xadc1de,
+    cloudShadowColor: 0x183550,
+    sunGlareColor: 0xff6633,
+    sunlightColor: 0xff9933,
+  },
+  cloudy: {
+    skyColor: 0x88c0d0,
+    cloudColor: 0xa9bddc,
+    cloudShadowColor: 0x17334d,
+    sunGlareColor: 0x666666,
+    sunlightColor: 0x999999,
+  },
+  rainy: {
+    skyColor: 0x778899,
+    cloudColor: 0xa9bddc,
+    cloudShadowColor: 0x555555,
+    sunGlareColor: 0x444444,
+    sunlightColor: 0x777777,
+  },
+  snowy: {
+    skyColor: 0xddeeff,
+    cloudColor: 0xffffff,
+    cloudShadowColor: 0xbbbbbb,
+    sunGlareColor: 0xffffff,
+    sunlightColor: 0xe0e0e0,
+  },
+  thunderstorm: {
+    skyColor: 0x333333,
+    cloudColor: 0x555555,
+    cloudShadowColor: 0x111111,
+    sunGlareColor: 0xffff00,
+    sunlightColor: 0xffdd00,
+  },
+  misty: {
+    skyColor: 0xa9bddc,
+    cloudColor: 0xddeeff,
+    cloudShadowColor: 0xaaaaaa,
+    sunGlareColor: 0xbbbbbb,
+    sunlightColor: 0xcccccc,
+  },
+  default: {
+    skyColor: 0x65b8d9,
+    cloudColor: 0xa9bddc,
+    cloudShadowColor: 0x17334d,
+    sunGlareColor: 0xfc6634,
+    sunlightColor: 0xff9b37,
+  },
+};
